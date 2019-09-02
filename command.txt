@@ -8,3 +8,9 @@ get         => read
 put         => update
 delete    => delete
 
+
+
+GIT
+
+git remote set-url origin your_url          => change the url link
+
