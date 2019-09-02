@@ -1,6 +1,23 @@
 npm init --yes          =>          for start the environment. 
+npm install jest --save-dev
+
+in pakage.json
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js"
+  },
+  if you give like this means, you need to run "npm test" for every time when you need
+
+in pakage.json
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node app.js"
+  },
+  if you give like this means, you need to once run "npm test",
+   then after is will run automaticall when you chage the file
 
 
+Jasmin is one of the unit test the other name in jsunit
 
 CRUD methods
 post        => create
@@ -11,6 +28,5 @@ delete    => delete
 
 
 GIT
-
 git remote set-url origin your_url          => change the url link
 
